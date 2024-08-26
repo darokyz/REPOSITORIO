@@ -1,18 +1,19 @@
-# Criar subdiretório vendas
-cd ~/ecommerce/vendas
-mkdir -p vendas
-cp dados_de_vendas.csv
+#!/bin/bash
 
-#Criar subdiretório backup e fazer o backup com data
-mkdir -p backup
+# Criar subdiretório vendas
+mkdir -p ~/ecommerce/vendas
+cp ~/ecommerce/dados_de_vendas.csv ~/ecommerce/vendas/
+
+# Criar subdiretório backup e fazer o backup com data
+mkdir -p ~/ecommerce/backup
 DATA=$(date +%Y%m%d)
-cp dados_de_vendas.csv backup/dados-$DATA.csv
+cp ~/ecommerce/dados_de_vendas.csv ~/ecommerce/backup/dados-$DATA.csv
 
 # Renomear o arquivo de backup
-mv backup/dados-$DATA.csv backup/backup-dados-$DATA.csv
+mv ~/ecommerce/backup/dados-$DATA.csv ~/ecommerce/backup/backup-dados-$DATA.csv
 
 # Criar relatorio.txt no diretório backup
-cd backup
+cd ~/ecommerce/backup
 echo "Data do sistema: $(date +'%Y/%m/%d %H:%M')" > relatorio.txt
 
 # Extrai informações do arquivo CSV
@@ -33,7 +34,7 @@ zip backup-dados-$DATA.zip backup-dados-$DATA.csv
 
 # Apagar o arquivo CSV original e o arquivo de vendas
 rm backup-dados-$DATA.csv
-rm ../dados_de_vendas.csv
+rm ~/ecommerce/vendas/dados_de_vendas.csv
 
 # Mensagem de conclusão
-echo "Processamento concluído com sucesso!
+echo "Processamento concluído com sucesso!"
