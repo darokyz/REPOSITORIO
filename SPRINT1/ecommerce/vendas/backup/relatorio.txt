@@ -1,0 +1,6 @@
+Data do sistema: 2024/08/26 18:52
+Data do primeiro registro de venda: 
+Data do último registro de venda: 
+Quantidade total de itens diferentes vendidos: 0
+
+Primeiras 10 linhas do arquivo:
