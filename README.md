@@ -11,13 +11,4 @@
 -⌛ Jogar LOL, cantar e sair com amigos.
 ## REPOSITORIO
  Projetos e Desafios
- -🔹Sprint1
- -🔹Sprint2
- -🔹Sprint3
- -🔹Sprint4
- -🔹Sprint5
- -🔹Sprint6
- -🔹Sprint7
- -🔹Sprint8
- -🔹Sprint9
- -🔹Sprint10
+ -🔹**Sprint1** https://github.com/darokyz/REPOSITORIO/blob/d9b1a9a6737a11bd1f66e1feacac0fb18d347d5b/SPRINT1
