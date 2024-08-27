@@ -1,0 +1,2 @@
+chmod +x (usado para dar permissões aos arquivos .sh)
+crontab -e (usado para definir o agendamento)- (27 15 * * 2-6)
