@@ -16,13 +16,4 @@
 ⌛ Jogar LOL, cantar e sair com amigos.
 
 ## Sprints
-* [Sprint 1](./Sprint1/)
-* [Sprint 2](./Sprint2/)
-* [Sprint 3](./Sprint3/)
-* [Sprint 4](./Sprint4/)
-* [Sprint 5](./Sprint5/)
-* [Sprint 6](./Sprint6/)
-* [Sprint 7](./Sprint7/)
-* [Sprint 8](./Sprint8/)
-* [Sprint 9](./Sprint9/)
-* [Sprint 10](./Sprint10/)
+* [Sprint 1](./"C:\Users\Otavi\OneDrive\Documentos\REPOSITORIOOTAVIO\REPOSITORIO\SPRINT1"/)
