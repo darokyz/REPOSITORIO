@@ -16,7 +16,7 @@
 ⌛ Jogar LOL, cantar e sair com amigos.
 
 ## Sprints
-* [Sprint 1](./https://github.com/darokyz/REPOSITORIO/blob/d9b1a9a6737a11bd1f66e1feacac0fb18d347d5b/SPRINT1/)
+* [Sprint 1](./https://github.com/darokyz/REPOSITORIO/blob/94f28ab7b370a3ea35f66b52db53aba62cb88d5a/SPRINT1/)
 * [Sprint 2](./Sprint2/)
 * [Sprint 3](./Sprint3/)
 * [Sprint 4](./Sprint4/)
@@ -25,4 +25,4 @@
 * [Sprint 7](./Sprint7/)
 * [Sprint 8](./Sprint8/)
 * [Sprint 9](./Sprint9/)
-* [Sprint 10](./Sprint10/
+* [Sprint 10](./Sprint10/)
