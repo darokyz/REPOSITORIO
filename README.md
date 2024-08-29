@@ -1,24 +1,33 @@
-# Olá, eu sou Otavio Amaral! 👋🏼
+# Otavio Amaral
 
-![Foto de Otavio Amaral](https://github.com/user-attachments/assets/245fc7e2-bb54-46d7-a137-7b4f1098a496)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/245fc7e2-bb54-46d7-a137-7b4f1098a496" alt="Otavio Amaral" width="200px" style="border-radius:50%">
+</div>
 
-### 🌍 Localização
-- **Cidade:** Taubaté, SP
-- **País:** Brasil
+<p align="center">
+  <b>Taubaté, SP, Brasil</b> • <b>Análise e Desenvolvimento de Sistemas</b> • <b>2º Semestre</b>
+</p>
 
-### 🎓 Educação
-- **Instituição:** Senac
-- **Curso:** Análise e Desenvolvimento de Sistemas
-- **Semestre:** 2º Semestre
+---
 
-### 💼 Experiência Profissional
-- **Status:** Sem experiência (mas cheio de vontade de aprender!)
+## Sobre Mim
 
-### 💻 Habilidades
-- **Linguagens:** C#, Python
-- **Ferramentas:** VSCode, GitHub, WSL
+Sou estudante, apaixonado por tecnologia e inovação. Estou cursando Análise e Desenvolvimento de Sistemas no Senac e, apesar de ainda estar no início da minha jornada, sou extremamente dedicado e sempre à procura de novas formas de aprender.
 
-### 🎯 Interesses Pessoais
+---
+
+## Habilidades
+
+```plaintext
+C#           ████░░░░░░  40%
+Python       ████░░░░░░  40%
+VSCode       █████░░░░░   50%
+GitHub       ███████░░░░░  70%
+WSL          ██████████░░░░  75%
+```
+|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+### Interesses Pessoais
 - **Hobbies:** Jogar LOL, cantar, sair com amigos
 - **Tecnologias:** Apaixonado por novas tecnologias e sempre buscando aprender mais
 
