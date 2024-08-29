@@ -33,6 +33,8 @@ WSL          ██████████░░░░  75%
 
 ## 🏃‍♂️ Sprints do Projeto
 - **Sprint 1:** ✅ Concluída
+[Sprint 1](./SPRINT1/)
+
 
 ## 🌟 Sobre Mim
 Sou um estudante de Análise e Desenvolvimento de Sistemas com um grande interesse em tecnologia e inovação. Mesmo sem experiência profissional ainda, estou sempre em busca de novas oportunidades para crescer e aplicar meus conhecimentos em projetos desafiadores.
