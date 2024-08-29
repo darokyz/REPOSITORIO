@@ -1,19 +1,32 @@
-# Olá, eu sou Otavio Amaral!👋🏼
-![1721329158942_Easy-Resize com](https://github.com/user-attachments/assets/245fc7e2-bb54-46d7-a137-7b4f1098a496)
+# Olá, eu sou Otavio Amaral! 👋🏼
 
-🗺️ Taubaté/SP
+![Foto de Otavio Amaral](https://github.com/user-attachments/assets/245fc7e2-bb54-46d7-a137-7b4f1098a496)
 
-📕 Senac
+### 🌍 Localização
+- **Cidade:** Taubaté, SP
+- **País:** Brasil
 
-🖥️ Análise e Desenvolvimento de Sistemas
+### 🎓 Educação
+- **Instituição:** Senac
+- **Curso:** Análise e Desenvolvimento de Sistemas
+- **Semestre:** 2º Semestre
 
-🎒 2º Semestre
+### 💼 Experiência Profissional
+- **Status:** Sem experiência (mas cheio de vontade de aprender!)
 
-🏢 Sem experiência
+### 💻 Habilidades
+- **Linguagens:** C#, Python
+- **Ferramentas:** VSCode, GitHub, WSL
 
-🤔 C#|Python|
+### 🎯 Interesses Pessoais
+- **Hobbies:** Jogar LOL, cantar, sair com amigos
+- **Tecnologias:** Apaixonado por novas tecnologias e sempre buscando aprender mais
 
-⌛ Jogar LOL, cantar e sair com amigos.
+## 🏃‍♂️ Sprints do Projeto
+- **Sprint 1:** ✅ Concluída
 
-## Sprints
-* Sprint 1 ✅
+## 🌟 Sobre Mim
+Sou um estudante de Análise e Desenvolvimento de Sistemas com um grande interesse em tecnologia e inovação. Mesmo sem experiência profissional ainda, estou sempre em busca de novas oportunidades para crescer e aplicar meus conhecimentos em projetos desafiadores.
+
+Seja bem-vindo ao meu perfil e sinta-se à vontade para explorar meus projetos!
+
