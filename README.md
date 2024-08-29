@@ -16,4 +16,4 @@
 ⌛ Jogar LOL, cantar e sair com amigos.
 
 ## Sprints
-* [Sprint 1](./"C:\Users\Otavi\OneDrive\Documentos\REPOSITORIOOTAVIO\REPOSITORIO\SPRINT1"/)
+* Sprint 1 ✅
