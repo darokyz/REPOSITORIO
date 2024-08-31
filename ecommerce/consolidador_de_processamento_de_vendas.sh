@@ -1,0 +1,21 @@
+#!/bin/bash
+
+#ir p/ diret backup
+BACKUP_DIR="$HOME/ecommerce/backup"
+# arquivo final d relatório
+RELATORIO_FINAL="$BACKUP_DIR/relatorio_final.txt"
+# Inicializa o arq.final do relatório
+echo "Consolidado dos Relatórios de Vendas" > "$RELATORIO_FINAL"
+echo "-----------------------------------" >> "$RELATORIO_FINAL"
+
+# loop/p todos os arquivos relatorio-*.txt no diret. de backup
+for RELATORIO in "$BACKUP_DIR"/relatorio-*.txt
+do
+        # Adiciona o conteúdo de cada relatório ao arquivo final
+        echo "Relatório de $(basename "$RELATORIO")" >> "$RELATORIO_FINAL"
+        cat "$RELATORIO" >> "$RELATORIO_FINAL"
+        echo -e "--------------------------------" >> "$RELATORIO_FINAL"
+done
+# Mensagem de conclusão
+echo "Consolidação dos relatórios concluída com sucesso!"
+
