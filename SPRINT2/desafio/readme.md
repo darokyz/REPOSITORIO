@@ -1,5 +1,6 @@
-#Desafio de Normalização e Modelagem Dimensional de Base de Dados de Locadora
-##Descrição do Projeto
+# Desafio de Normalização e Modelagem Dimensional de Base de Dados de Locadora
+
+## Descrição do Projeto
 
 Este projeto tem como objetivo a normalização de uma base de dados de uma locadora de veículos e a criação de modelos relacionais e dimensionais a partir da tabela de locações fornecida. O objetivo principal é otimizar a estrutura do banco de dados, garantindo a integridade dos dados, melhorando a organização e facilitando a análise de informações.
 
