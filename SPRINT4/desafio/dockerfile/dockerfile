@@ -1,0 +1,9 @@
+FROM python:3.9-slim
+
+WORKDIR /app
+
+COPY carguru.py .
+COPY hash_generator.py .
+
+
+CMD ["python", "hash_generator.py"]
