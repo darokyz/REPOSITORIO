@@ -1,6 +1,6 @@
-🌟 Desafio de Python com Containers Docker
+# 🌟 Desafio de Python com Containers Docker
 
-🎯 Objetivo
+## 🎯 Objetivo
 O objetivo deste desafio é praticar Python utilizando containers Docker, combinando conhecimentos sobre criação de Dockerfiles, execução de containers e scripts Python.
 
 📦 Criação de uma imagem Docker para o script carguru.py.
@@ -11,16 +11,16 @@ O objetivo deste desafio é praticar Python utilizando containers Docker, combin
 📄 Arquivo carguru.py
 
 
-# Usando a imagem base do Python
+### Usando a imagem base do Python
 FROM python:3.9-slim
 
-# Definindo o diretório de trabalho
+### Definindo o diretório de trabalho
 WORKDIR /app
 
-# Copiando o arquivo carguru.py para o container
+### Copiando o arquivo carguru.py para o container
 COPY carguru.py .
 
-# Comando para executar o script
+### Comando para executar o script
 CMD ["python", "carguru.py"]
 🚀 Build da imagem:
 
@@ -38,17 +38,17 @@ docker start <ID_DO_CONTAINER>
 🔑 Hash Generator
 📄 Dockerfile para o Hash Generator
 
-# Usando a imagem base do Python
+### Usando a imagem base do Python
 FROM python:3.9-slim
 
-# Definindo o diretório de trabalho
+### Definindo o diretório de trabalho
 WORKDIR /app
 
-# Copiando os arquivos para o container
+### Copiando os arquivos para o container
 COPY carguru.py .
 COPY hash_generator.py .
 
-# Comando para executar o script
+### Comando para executar o script
 CMD ["python", "hash_generator.py"]
 🚀 Comandos para Build e Execução do Hash Generator
 ##### Build da imagem:
