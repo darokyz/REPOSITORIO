@@ -7,7 +7,7 @@ O objetivo deste desafio é praticar Python utilizando containers Docker, combin
 ♻️ Reutilização de containers parados.
 🔐 Desenvolvimento do script hash_generator.py que gera um hash SHA-1 a partir de um input.
 
-🛠️ Etapa 1: Criação do Dockerfile para carguru.py
+## 🛠️ Etapa 1: Criação do Dockerfile para carguru.py
 📄 Arquivo carguru.py
 
 
