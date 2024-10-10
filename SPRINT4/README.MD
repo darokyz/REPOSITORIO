@@ -1,9 +1,34 @@
-A Sprint 3 se destacou como uma das mais desafiadoras até o momento, em grande parte devido à quantidade e à complexidade dos exercícios em Python. Tivemos que lidar com processos de ETL (Extração, Transformação e Carregamento) utilizando Python puro, o que exigiu bastante atenção aos detalhes e uma boa compreensão das bases da programação. Um dos pontos altos foi o desafio de análise de dados, que, apesar de demandar um grande esforço, proporcionou uma experiência recompensadora, especialmente pela oportunidade de visualizar os resultados por meio de gráficos gerados com a biblioteca Matplotlib.
+# Sprint 4 - Docker, Python e AWS Partner Accreditation
 
-Ao longo da sprint, fomos expostos a uma gama variada de conceitos, começando com fundamentos de Python, passando por estruturas de controle e funções, e avançando até tópicos mais sofisticados, como orientação a objetos. Esses conteúdos foram indispensáveis para a execução dos exercícios e também para a realização do desafio proposto, já que exigiam não só o domínio da lógica de programação, mas também a aplicação prática de conceitos mais avançados.
+## Introdução
+A Sprint 4 foi focada em aprofundar conhecimentos sobre Docker, Python e credenciamento técnico em AWS. Ao longo dessa sprint, trabalhamos desde os fundamentos de containers Docker até o uso de Python integrado com Docker, além de concluir o credenciamento técnico para AWS Partner.
 
-Uma parte fundamental do trabalho foi a introdução e o uso extensivo das bibliotecas Pandas e Matplotlib, que facilitaram a manipulação, análise e visualização de grandes volumes de dados. O Pandas desempenhou um papel essencial na limpeza, filtragem e transformação dos dados, permitindo-nos organizar e preparar a informação de forma eficiente. Já o Matplotlib se destacou ao possibilitar a criação de gráficos e visualizações claras e informativas, que ajudaram a interpretar os resultados da análise de forma mais intuitiva.
+## Abordamos
 
-Além disso, a sprint também reforçou o poder da linguagem Python. Com sua sintaxe simples e flexível, Python nos permitiu resolver problemas complexos e realizar análises aprofundadas de maneira ágil e eficaz. Esse tipo de habilidade é fundamental no mundo corporativo, especialmente em áreas como a análise de dados e ciência de dados, onde a capacidade de processar grandes volumes de informações e gerar insights acionáveis é extremamente valiosa. No contexto empresarial, o conhecimento adquirido durante essa sprint pode ser aplicado em uma série de cenários, desde a otimização de processos até a melhoria da tomada de decisões.
+### 1. Docker - Do Básico ao Avançado
+Nesta parte, foi feita uma imersão completa no Docker, começando pelos conceitos básicos, como containers, imagens e Dockerfiles, até tópicos mais avançados, como:
+- **Imagens e Containers**: Aprendemos a criar e gerenciar imagens e containers.
+- **Dockerfiles**: Configuração de imagens personalizadas para diferentes aplicações.
+- **Volumes e Networks**: Gerenciamento de volumes de dados e redes dentro dos containers.
+- **Execução de Aplicações em Containers**: Executamos aplicações Python, como o script `carguru.py` e o gerador de hash, utilizando containers Docker.
 
-No geral, a Sprint 3 foi uma excelente oportunidade de crescimento, tanto em termos de habilidades técnicas quanto de visão prática sobre como essas ferramentas podem ser aplicadas no mundo real. O aprendizado de Python, aliado ao uso de bibliotecas poderosas como Pandas e Matplotlib, mostrou-se essencial para qualquer profissional que busca atuar com análise de dados ou oferecer assessoria baseada em dados para empresas. Essa sprint não apenas ampliou nosso conhecimento técnico, mas também nos preparou para enfrentar problemas mais complexos com confiança.
+#### Desafio Docker
+Um dos principais desafios da Sprint foi criar containers para executar scripts Python, o que foi dividido em três etapas:
+1. **Criação de uma imagem Docker para rodar o script `carguru.py`**, que escolhia aleatoriamente um carro de uma lista e exibia o resultado.
+2. **Reutilização de containers**: Aprendemos a verificar e reiniciar containers que foram parados.
+3. **Criação de um novo script `hash_generator.py`**, que recebia uma string como input e gerava um hash SHA-1. Esse script foi executado em um container interativo.
+
+### 2. Python
+A linguagem Python foi amplamente utilizada no desafio para integrar o uso de containers Docker. Os pontos principais abordados incluíram:
+- **Manipulação de listas e aleatoriedade** com o script `carguru.py`.
+- **Uso de bibliotecas Python**, como `hashlib`, para gerar hashes criptográficos com o script `hash_generator.py`.
+- **Integração com Docker**, onde os scripts foram executados em ambientes isolados utilizando imagens base do Python e Dockerfiles.
+
+### 3. AWS Partner: Credenciamento Técnico (Português)
+Outro componente crucial da Sprint 4 foi o credenciamento técnico na AWS. O módulo forneceu uma visão geral dos principais serviços AWS e melhores práticas para parceiros. Entre os tópicos cobertos estão:
+- **Introdução à AWS Cloud**: Explicação dos principais serviços AWS, como EC2, S3, e RDS.
+- **Boas práticas de arquitetura**: Foco nas práticas recomendadas para garantir alta disponibilidade, escalabilidade e segurança em ambientes AWS.
+- **Casos de uso**: Exemplo de como parceiros AWS podem aplicar esses serviços para entregar soluções de qualidade.
+
+## Conclusão
+A Sprint 4 proporcionou um conhecimento sólido sobre Docker, sua integração com Python, e também o credenciamento técnico na AWS. Com isso, não apenas ganhamos experiência prática com containers e execução de aplicações em ambientes isolados, mas também aprofundamos nossos conhecimentos sobre a AWS, ampliando as habilidades para atuar em ambientes de nuvem e containers de forma mais eficaz.

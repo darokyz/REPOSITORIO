@@ -1,48 +1,72 @@
+# Desafio de Python com Containers Docker
 
-# Desafio de Análise de Dados do Google Play Store
-    Este projeto tem como objetivo analisar um dataset da Google Play Store, explorando informações sobre aplicativos, como número de downloads, classificações de conteúdo, avaliações e preços. Através de diversas análises e visualizações, buscamos obter insights relevantes a partir dos dados.
+## Objetivo
+O objetivo deste desafio foi a prática de Python com containers Docker, combinando os conhecimentos adquiridos sobre criação de Dockerfiles, execução de containers e scripts Python.
 
-📁 Dataset
-    O dataset utilizado contém informações sobre aplicativos disponíveis na Google Play Store, com as seguintes colunas:
+1. **Criação de uma imagem Docker para rodar o script `carguru.py`.**
+2. **Reutilização de containers parados.**
+3. **Criação de um novo script `hash_generator.py` que recebe input e gera um hash SHA-1.**
 
-App: Nome do aplicativo
-Category: Categoria do aplicativo
-Rating: Avaliação média (de 0 a 5)
-Reviews: Número de reviews (avaliações textuais) feitas pelos usuários
-Size: Tamanho do aplicativo (em MB ou KB)
-Installs: Número de instalações
-Type: Tipo do aplicativo (Gratuito ou Pago)
-Price: Preço do aplicativo
-Content Rating: Classificação de conteúdo (ex: Everyone, Teen, Mature 17+)
-Genres: Gêneros do aplicativo
-Last Updated: Data da última atualização
-Current Ver: Versão atual do aplicativo
-Android Ver: Versão mínima do Android necessária para rodar o aplicativo
+---
 
-# 🔧 Funcionalidades Implementadas
-### As principais análises realizadas no projeto incluem:
+## Etapa 1: Criação do Dockerfile para o `carguru.py`
 
-# 1. Remoção de Duplicatas e Limpeza de Dados
-    O dataset foi processado para remover duplicatas e tratar valores ausentes ou inconsistentes, como dados textuais não numéricos nas colunas de preços e reviews.
+### Arquivo `carguru.py`
 
-# 2. Análises Estatísticas e Exploratórias
-    Top 10 Aplicativos por Número de Reviews: Foi criado um ranking dos 10 apps com o maior número de reviews.
-    Aplicativo Mais Caro: O aplicativo mais caro identificado foi I'm Rich - Trump Edition, com um valor de $400.
-    Distribuição das Classificações de Conteúdo: Analisamos quantos aplicativos estão em cada faixa de classificação.
-    
-# 3. Visualizações de Dados
-    Utilizamos gráficos para explorar os dados de forma visual:
+# Usando a imagem base do Python
+FROM python:3.9-slim
 
-    Gráfico de Barras: Mostrando a distribuição das classificações de conteúdo.
-    Gráfico de Pizza: Exibindo as 10 categorias mais frequentes de aplicativos.
-# 4. Outras Métricas Calculadas
-    Top 10 Aplicativos por Melhor Avaliação (Rating): Lista dos apps com as melhores médias de avaliação.
-    Média de Preço dos Aplicativos Pagos: Calculamos a média de preço de todos os aplicativos pagos no dataset.
+# Definindo o diretório de trabalho
+WORKDIR /app
 
-🛠️ 
-# Tecnologias Utilizadas
-    Python: Linguagem de programação principal.
-      Pandas: Para manipulação e análise de dados.
-        Matplotlib: Para visualizações gráficas.
-          Jupyter Notebook: Ambiente de desenvolvimento interativo.
-             VSCode: Editor de código utilizado no projeto.
+# Copiando o arquivo carguru.py para o container
+COPY carguru.py .
+
+# Comando para executar o script
+CMD ["python", "carguru.py"]
+
+### Build da imagem:
+
+docker build -t carguru-app .
+
+### Executar o container:
+
+docker run carguru-app
+
+### Verificar containers: 
+
+docker ps -a
+
+### Reiniciar um container:
+
+docker start <ID_DO_CONTAINER>
+
+## Hash Generator:
+#### Usando a imagem base do Python
+FROM python:3.9-slim
+
+#### Definindo o diretório de trabalho
+WORKDIR /app
+
+#### Copiando os arquivos para o container
+COPY carguru.py .
+COPY hash_generator.py .
+
+#### Comando para executar o script
+CMD ["python", "hash_generator.py"]
+
+##### Comandos para Build e Execução do Hash Generator
+##### Build da imagem:
+
+docker build -t hash-app .
+##### Executar o container:
+
+docker run -it hash-app
+
+
+Após a execução de ambos os scripts e a geração das imagens Docker, é possível observar a funcionalidade dos scripts em ambientes isolados, demonstrando a eficácia do uso de containers para rodar aplicações.
+
+Este desafio proporcionou uma experiência prática significativa na integração de Python com Docker, permitindo uma melhor compreensão dos conceitos de containers e sua aplicação em projetos reais.
+
+
+
