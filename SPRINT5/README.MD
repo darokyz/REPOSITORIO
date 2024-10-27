@@ -1,34 +1,39 @@
-# Sprint 4 - Docker, Python e AWS Partner Accreditation
+## 🚀 Sprint 5 - Desafio, Lab AWS S3 e Curso AWS Certified Cloud Practitioner.
 
-## Introdução
-A Sprint 4 foi focada em aprofundar conhecimentos sobre Docker, Python e credenciamento técnico em AWS. Ao longo dessa sprint, trabalhamos desde os fundamentos de containers Docker até o uso de Python integrado com Docker, além de concluir o credenciamento técnico para AWS Partner.
+### 🌟 Introdução
+A Sprint 5 foi dedicada à exploração do serviço AWS S3, focando na configuração de buckets para hospedagem de conteúdo. Além disso, também concluímos o curso de preparação para o exame AWS Certified Cloud Practitioner, que nos proporcionou uma base sólida sobre os serviços e práticas da AWS.
 
-## Abordamos
+🗂️ Abordamos
+1. 🛠️ Lab AWS S3
+Neste laboratório, mergulhamos nas funcionalidades do AWS S3 e seguimos as etapas necessárias para configurar um bucket que funcionasse como hospedagem de conteúdo estático.
 
-### 1. Docker - Do Básico ao Avançado
-Nesta parte, foi feita uma imersão completa no Docker, começando pelos conceitos básicos, como containers, imagens e Dockerfiles, até tópicos mais avançados, como:
-- **Imagens e Containers**: Aprendemos a criar e gerenciar imagens e containers.
-- **Dockerfiles**: Configuração de imagens personalizadas para diferentes aplicações.
-- **Volumes e Networks**: Gerenciamento de volumes de dados e redes dentro dos containers.
-- **Execução de Aplicações em Containers**: Executamos aplicações Python, como o script `carguru.py` e o gerador de hash, utilizando containers Docker.
+### 🛠️ Criação de um Bucket: Aprendemos a criar um bucket no S3, escolhendo o nome e a região apropriada.
 
-#### Desafio Docker
-Um dos principais desafios da Sprint foi criar containers para executar scripts Python, o que foi dividido em três etapas:
-1. **Criação de uma imagem Docker para rodar o script `carguru.py`**, que escolhia aleatoriamente um carro de uma lista e exibia o resultado.
-2. **Reutilização de containers**: Aprendemos a verificar e reiniciar containers que foram parados.
-3. **Criação de um novo script `hash_generator.py`**, que recebia uma string como input e gerava um hash SHA-1. Esse script foi executado em um container interativo.
+### 📡 Habilitação da Hospedagem de Site Estático: Configuramos o bucket para servir conteúdo estático, especificando documentos de índice e de erro.
 
-### 2. Python
-A linguagem Python foi amplamente utilizada no desafio para integrar o uso de containers Docker. Os pontos principais abordados incluíram:
-- **Manipulação de listas e aleatoriedade** com o script `carguru.py`.
-- **Uso de bibliotecas Python**, como `hashlib`, para gerar hashes criptográficos com o script `hash_generator.py`.
-- **Integração com Docker**, onde os scripts foram executados em ambientes isolados utilizando imagens base do Python e Dockerfiles.
+### 🔒 Configuração de Permissões: Editamos as configurações de bloqueio de acesso público e adicionamos uma política de bucket para permitir acesso público de leitura.
 
-### 3. AWS Partner: Credenciamento Técnico (Português)
-Outro componente crucial da Sprint 4 foi o credenciamento técnico na AWS. O módulo forneceu uma visão geral dos principais serviços AWS e melhores práticas para parceiros. Entre os tópicos cobertos estão:
-- **Introdução à AWS Cloud**: Explicação dos principais serviços AWS, como EC2, S3, e RDS.
-- **Boas práticas de arquitetura**: Foco nas práticas recomendadas para garantir alta disponibilidade, escalabilidade e segurança em ambientes AWS.
-- **Casos de uso**: Exemplo de como parceiros AWS podem aplicar esses serviços para entregar soluções de qualidade.
+### 📤 Upload de Arquivos: Fizemos upload de arquivos HTML e CSV, incluindo o documento de índice index.html e um documento de erro 404.html.
 
-## Conclusão
-A Sprint 4 proporcionou um conhecimento sólido sobre Docker, sua integração com Python, e também o credenciamento técnico na AWS. Com isso, não apenas ganhamos experiência prática com containers e execução de aplicações em ambientes isolados, mas também aprofundamos nossos conhecimentos sobre a AWS, ampliando as habilidades para atuar em ambientes de nuvem e containers de forma mais eficaz.
+### 🌐 Teste do Endpoint do Site: Após a configuração, testamos o endpoint do site no navegador para garantir que tudo estivesse funcionando corretamente.
+
+2. 💪 Detalhes do Lab AWS
+Foi a criação de um bucket S3 que servisse como um site estático. Para isso, realizamos as seguintes etapas:
+
+📦 Criação do Bucket: Seguindo as instruções, criamos um bucket no S3.
+🌐 Habilitação da Hospedagem de Site Estático: Configuramos o bucket para suportar a hospedagem de conteúdo estático, especificando um documento de índice e um de erro.
+🔓 Configuração de Acesso Público: Editamos as permissões do bucket para torná-lo acessível ao público, garantindo que o conteúdo pudesse ser visualizado na web.
+🔍 Teste do Site: Validamos a hospedagem acessando o endpoint do bucket no navegador.
+
+## 3. 📚 Curso AWS Certified Cloud Practitioner
+Complementando nossa formação prática, realizamos um curso de preparação para o exame AWS Certified Cloud Practitioner. Os principais conteúdos abordados incluem:
+
+🌐 Fundamentos da AWS: Aprendemos sobre os principais serviços, como EC2, S3 e RDS.
+🏗️ Práticas de Arquitetura: Focamos nas melhores práticas para garantir a segurança, escalabilidade e alta disponibilidade em ambientes AWS.
+🛠️ Casos de Uso: Estudamos exemplos de como aplicar os serviços da AWS para oferecer soluções de qualidade.
+
+# Para maiores informações sobre o desafio principal acessar o readme do desafio: 
+[DESAFIO PRINCIPAL](./desafio/readme.md) 
+
+✅ Conclusão
+A Sprint 5 foi fundamental para aprofundar nosso conhecimento sobre o AWS S3 e a hospedagem de sites estáticos, além de completar a formação teórica necessária para a certificação AWS. Essa combinação de prática e teoria equipou com as habilidades necessárias para trabalhar eficientemente em projetos de nuvem e melhorou nossa compreensão dos serviços oferecidos pela AWS.

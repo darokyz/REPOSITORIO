@@ -26,9 +26,4 @@ Upload para o S3: Com um script Python, fizemos o upload do arquivo para um buck
 ### Resultado Final
 
 
-## Links Rápidos para Pastas e Arquivos
-
-- [Pasta de Evidências (prints de execução)](./SPRINT5/evidencias/desafio)
-
-- [Código Python - Script Principal](./SPRINT5/desafio/desafio_sprint5/importando.py)
 
