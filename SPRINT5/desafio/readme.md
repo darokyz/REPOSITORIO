@@ -28,7 +28,8 @@ A tabela final, após todas as manipulações, foi armazenada como um novo arqui
 
 ## Links Rápidos para Pastas e Arquivos
 
-- [Pasta de Evidências (prints de execução)](./C:\Users\Otavi\OneDrive\Documentos\REPOSITORIOOTAVIO\REPOSITORIO\SPRINT5\evidencias)
+- [Pasta de Evidências (prints de execução)](./SPRINT5\evidencias\desafio)
 
-- [Código Python - Script Principal](./C:\Users\Otavi\OneDrive\Documentos\REPOSITORIOOTAVIO\REPOSITORIO\SPRINT5\desafio\desafio_sprint5\importando.py)
-- [Arquivo de Dados Processados (CSV)](./C:\Users\Otavi\OneDrive\Documentos\REPOSITORIOOTAVIO\REPOSITORIO\SPRINT5\desafio\desafio_sprint5\alunos_dados_processados (1).csv)
+- [Código Python - Script Principal](./SPRINT5\desafio\desafio_sprint5\importando.py)
+
+- [Arquivo de Dados Processados (CSV)](./)
