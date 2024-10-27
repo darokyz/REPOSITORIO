@@ -24,12 +24,11 @@ Upload para o S3: Com um script Python, fizemos o upload do arquivo para um buck
 ##### Extração de Data: Extraímos o ano de início do período de recebimento.
 ##### Formatação de String: Transformamos os nomes dos bolsistas em letras maiúsculas.
 ### Resultado Final
-A tabela final, após todas as manipulações, foi armazenada como um novo arquivo CSV no S3. Para acessar o arquivo, consulte a pasta dados processados.
+
 
 ## Links Rápidos para Pastas e Arquivos
 
-- [Pasta de Evidências (prints de execução)](./SPRINT5\evidencias\desafio)
+- [Pasta de Evidências (prints de execução)](./SPRINT5/evidencias/desafio)
 
-- [Código Python - Script Principal](./SPRINT5\desafio\desafio_sprint5\importando.py)
+- [Código Python - Script Principal](./SPRINT5/desafio/desafio_sprint5/importando.py)
 
-- [Arquivo de Dados Processados (CSV)](./)
