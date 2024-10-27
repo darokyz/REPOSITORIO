@@ -1,0 +1,52 @@
+# bDocumentação do Desafio de Manipulação de Dados com AWS
+1. Conjunto de Dados
+O conjunto de dados escolhido para este desafio contém informações sobre alunos bolsistas, incluindo:
+
+Nome do aluno
+Valor mensal da bolsa
+Período de recebimento da bolsa
+Instituto de ensino
+Origem dos Dados
+Os dados foram obtidos no Portal de Dados Públicos do Governo Brasileiro.
+
+2. Processo de Upload para o S3
+O arquivo CSV foi carregado para o bucket S3 chamado otaviomeubucket usando a biblioteca Boto3 em Python.
+
+3. Manipulação de Dados com Pandas
+Com o arquivo já no bucket, realizamos diversas manipulações para atender aos requisitos do desafio:
+
+-- Filtragem de Dados
+Filtramos os alunos com:
+
+Valor mensal da bolsa superior a R$500.
+Período de recebimento contendo o ano de 2024.
+-- Agregações
+Calculamos:
+
+Média do valor mensal das bolsas.
+Soma total do valor mensal das bolsas.
+-- Função Condicional
+Adicionamos uma coluna Tipo de Bolsa para classificar os valores das bolsas:
+
+"Alta Bolsa" para valores acima de R$600.
+"Baixa Bolsa" para valores iguais ou abaixo de R$600.
+-- Conversão de Moeda
+Convertendo o valor da bolsa para dólares, considerando um câmbio de R$5,00 para USD.
+
+-- Extração de Data
+Extraímos o ano de início do período de recebimento e armazenamos na coluna Ano de Início.
+
+-- Manipulação de Strings
+Formatamos os nomes dos alunos para letras maiúsculas, uniformizando o texto para análise.
+
+4. Resultado Final
+O resultado final foi salvo em um novo arquivo CSV, contendo as colunas:
+
+Aluno(a) bolsista
+Valor mensal da bolsa
+Tipo de Bolsa
+Bolsa em Dólares
+Ano de Início
+Este arquivo final foi enviado de volta para o bucket S3.
+
+
