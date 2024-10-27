@@ -6,10 +6,8 @@ O objetivo deste desafio é praticar os conhecimentos em AWS e manipulação de 
 Arquivo Markdown com documentação de cada etapa e prints de execução.
 Código Python (.py) contendo os scripts desenvolvidos.
 Arquivo CSV com os dados originais e o CSV processado.
-### 3. Preparação
-Antes de iniciar, certifique-se de estar acessando a conta Compass AWS para realizar as operações no S3.
 
-### 4. Desafio
+### 3. Desafio
 Descrição das Etapas
 Selecionar o Conjunto de Dados: Escolhemos um arquivo CSV do portal dados.gov.br com informações sobre alunos bolsistas. Garantimos que o arquivo é único na turma.
 
