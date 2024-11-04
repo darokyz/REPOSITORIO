@@ -1,0 +1,31 @@
+import json
+import pandas as pd
+import boto3
+
+def lambda_handler(event, context):
+    print("Iniciando a função Lambda")
+    
+    try:
+        s3_client = boto3.client('s3')
+        bucket_name = 'otaviomeubucket'
+        s3_file_name = 'dados/nomes.csv'
+        
+        print(f"Acessando o bucket {bucket_name} e o arquivo {s3_file_name}")
+        objeto = s3_client.get_object(Bucket=bucket_name, Key=s3_file_name)
+        
+        df = pd.read_csv(objeto['Body'], sep=',')
+        rows = len(df)
+        print(f"O arquivo tem {rows} linhas")
+        
+        return {
+            'statusCode': 200,
+            'body': f"Este arquivo tem {rows} linhas"
+        }
+        
+    except Exception as e:
+        print("Erro:", str(e))
+        return {
+            'statusCode': 500,
+            'body': f"Erro: {str(e)}"
+        }
+

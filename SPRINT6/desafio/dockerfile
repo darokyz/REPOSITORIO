@@ -1,0 +1,14 @@
+FROM python:3.9-slim
+
+
+RUN pip install boto3
+
+# Criar uma pasta de trabalho dentro do container
+WORKDIR /app
+
+# Copiar o script Python para o container
+COPY awsbucket.py .
+
+# Comando para rodar o script
+CMD ["python", "awsbucket.py"]
+

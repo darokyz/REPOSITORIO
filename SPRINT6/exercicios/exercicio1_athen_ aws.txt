@@ -1,0 +1,36 @@
+CREATE EXTERNAL TABLE IF NOT EXISTS meubanco.nomes_tabela (
+	nome STRING,
+	sexo STRING,
+	total INT,
+	ano INT
+)
+ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe'
+WITH SERDEPROPERTIES (
+	'serialization.format' = ',',
+	'field.delim' = ','
+)
+LOCATION 's3://otaviomeubucket/queries/';
+SELECT *
+FROM meubanco.nomes_tabela
+LIMIT 10;
+SELECT nome,
+	total
+FROM meubanco.nomes_tabela
+WHERE ano = 1999
+ORDER BY total DESC
+LIMIT 15;
+
+-- 3 nomes mais usados por decada até os dias
+ values_at_quantilesWITH ranked_names AS (
+    SELECT 
+        nome,
+        COUNT(*) AS total,
+        FLOOR(ano / 10) * 10 AS decade,
+        ROW_NUMBER() OVER (PARTITION BY FLOOR(ano / 10) * 10 ORDER BY COUNT(*) DESC) as rank
+    FROM meubanco.nomes_tabela
+    GROUP BY nome, FLOOR(ano / 10) * 10
+)
+SELECT nome, total, decade
+FROM ranked_names
+WHERE rank <= 3
+ORDER BY decade, total DESC;
