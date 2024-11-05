@@ -6,14 +6,16 @@ Realização de cursos da AWS:
 [CURSOS](./certificados/)
 
 1. Data Lake no AWS S3: Criação e configuração de um bucket para armazenar dados estáticos e consultas.
-Manipulação de Dados com AWS Athena: Configuração do ambiente de Athena e execução de consultas sobre o dataset nomes.csv.
+
+Manipulação de Dados com AWS Athena: Configuração do ambiente de Athena.
+
 
 2. Automação com AWS Lambda: Criação de uma função Lambda que processa dados no S3, com o suporte de uma camada customizada para incluir bibliotecas como Pandas.
-
+![evidencia](./evidencias/ex_lambda.png)
 
 3. Exercício Athena: Criação de banco de dados e tabelas a partir de arquivos CSV no S3, execução de queries SQL.
-Exercício Lambda: Criação de funções Lambda para operações diversas.
-Cursos Realizados
+
+![evidencia](./evidencias/result_query_athena.png)
 
 ## Etapas do Desafio
 ### [desafio](../SPRINT6/desafio/README.MD)
