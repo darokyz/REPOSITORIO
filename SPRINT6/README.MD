@@ -1,4 +1,5 @@
-# Data Lake & Análise de Dados com AWS (Sprint + Desafio)
+# SPRINT_6
+## Data Lake & Análise de Dados com AWS (Sprint + Desafio)
 
 Este projeto integra o desafio principal de construção de um Data Lake utilizando AWS e exercícios de Sprint, abrangendo práticas dos serviços AWS S3, Athena e Lambda, com suporte de camadas (layers) e integrações de dados com Pandas. Foi realizado também um conjunto de cursos da AWS para apoiar no desenvolvimento das atividades.
 
