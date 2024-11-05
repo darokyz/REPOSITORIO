@@ -20,16 +20,16 @@ Sou estudante, apaixonado por tecnologia e inovação. Estou cursando Análise e
 
 ```plaintext
 C#           ████░░░░░░  40%
-Python       ████░░░░░░  40%
-VSCode       █████░░░░░   50%
+Python       ███████░░░  70%
+VSCode       ████████░░   80%
 GitHub       ███████░░░░░  70%
-WSL          ██████████░░░░  75%
+WSL          ██████░░░░░░  60%
 ```
 |------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 ### Interesses Pessoais
-- **Hobbies:** Jogar LOL, cantar, sair com amigos
-- **Tecnologias:** Apaixonado por novas tecnologias e sempre buscando aprender mais
+- **Hobbies:** Jogar LOL, cantar, sair com amigos, desenhar.
+- **Tecnologias:** Apaixonado por novas tecnologias e sempre buscando aprender mais.
 
 ## 🏃‍♂️ Sprints do Projeto
 - **Sprint 1:** ✅ Concluída
@@ -46,6 +46,9 @@ WSL          ██████████░░░░  75%
 
 - **Sprint 5:** ✅ Concluída
 [Sprint 5](./SPRINT5/)
+
+- **Sprint 6:** ✅ Concluída
+[Sprint 6](./SPRINT6/)
 
 
 ## 🌟 Sobre Mim
