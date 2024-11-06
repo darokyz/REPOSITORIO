@@ -15,6 +15,7 @@ Realizar a ingestão batch de arquivos locais para a AWS S3 em uma estrutura org
 
 
 -- Iniciando a Missão
+
 Pré-requisitos:
 Baixe o arquivo de dados: Filmes e Series.zip.
 Uma conta AWS para manipular o S3.
