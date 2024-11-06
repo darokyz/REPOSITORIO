@@ -30,7 +30,7 @@ Essa análise examina como a relação entre a duração dos filmes e o número 
 
 ## 3. Análise de Tendências Combinadas
 **Objetivo**: Examinar como a relação entre tempo de duração e número de votos evoluiu ao longo das décadas.  
-**Como**: Combine os resultados das análises de correlação de cada década para identificar tendências. Por exemplo, filmes mais longos estão se tornando mais ou menos populares ao longo do tempo?
+**Como**: Combinandoos resultados das análises de correlação de cada década para identificar tendências. Por exemplo, filmes mais longos estão se tornando mais ou menos populares ao longo do tempo?
 
 ### Descrição
 Essa análise combina os resultados das análises de correlação realizadas em diferentes décadas para identificar tendências gerais. Ao entender como a popularidade dos filmes de ação com diferentes durações mudou ao longo do tempo, podemos obter insights sobre as preferências dos espectadores.
