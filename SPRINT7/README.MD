@@ -1,4 +1,6 @@
-Resumo da Sprint 7: Desafio de Análise de Filmes e Séries
+# Resumo da Sprint 7: 
+Desafio de Análise de Filmes e Séries
+
 Objetivo Geral
 Integrar e aplicar conhecimentos sobre ingestão de dados via API, armazenamento no AWS S3, análises exploratórias avançadas, utilizando ferramentas de Big Data.
 
