@@ -50,6 +50,9 @@ WSL          ██████░░░░░░  60%
 - **Sprint 6:** ✅ Concluída
 [Sprint 6](./SPRINT6/)
 
+- **Sprint 7:** ✅ Concluída
+[Sprint 7](./SPRINT7/)
+
 
 ## 🌟 Sobre Mim
 Sou um estudante de Análise e Desenvolvimento de Sistemas com um grande interesse em tecnologia e inovação. Mesmo sem experiência profissional ainda, estou sempre em busca de novas oportunidades para crescer e aplicar meus conhecimentos em projetos desafiadores.
