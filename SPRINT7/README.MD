@@ -53,7 +53,7 @@ Integração com Athena para realizar consultas SQL.  -- (até o momento nao con
 A atividade demonstrou como automatizar fluxos de dados utilizando Glue, desde a transformação até a catalogação, integrando diferentes serviços AWS para análises avançadas.
 
 ## Análises Exploradas com os Dados do TMDB
-[Desafio](../SPRINT7/desafio/markdown.md)
+[MARKDOWN](../SPRINT7/desafio/markdown.md)
 
 Nesta sprint, avançamos na construção de um pipeline robusto para coleta e análise de dados, aplicando boas práticas e ferramentas modernas como Docker, Spark e AWS Glue. As análises definidas trazem insights relevantes sobre tendências no mercado de filmes de ação, com potencial para prever popularidade de lançamentos futuros.
 
