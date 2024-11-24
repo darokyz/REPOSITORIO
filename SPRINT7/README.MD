@@ -46,7 +46,8 @@ Transformou o arquivo CSV nomes.csv em JSON, particionado por sexo e ano.
 Armazenou os resultados no S3 com estrutura organizada.
 Catalogação e Consultas:
 Criação de um crawler para gerar tabelas no Glue Catalog.
-Integração com Athena para realizar consultas SQL.  -- (até o momento nao consegui realizar essa etapa)
+Integração com Athena para realizar consultas SQL.  -- (etapa realizada) [athena](../SPRINT7/exercicios/ex_2_glue/glue_athena_crawler_refeito/)
+![athena](./exercicios/ex_2_glue/glue_athena_crawler_refeito/Captura%20de%20tela%202024-11-24%20183438.png)
 #### (Demonstraçao dos exercícios )
 [DEMO. EXs](../SPRINT7/exercicios)
 ### Conclusão
