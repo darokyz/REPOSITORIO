@@ -63,7 +63,7 @@ Importante: Após a execução dos jobs, precisamos interrompê-los para evitar 
 ### Passo 4: Validação e Consultas no AWS Athena
 Após o processamento dos dados, utilize o AWS Athena para realizar algumas consultas SQL e garantir que os dados estejam bem estruturados e prontos para análise: 
 ![Consulta_Athena](athena_select_csv_parquet.png)
-![Consulta_Athena](athena_select_json_parquet.png)
+![Consulta_Athena](./query_athena_json_atualizada.png)
 4. Considerações Finais
 Custo e Desempenho: Sempre monitoro o desempenho dos jobs e o custo de execução no AWS Glue. Para evitar custos extras, eu interrompo os jobs quando não estão em uso.
 
