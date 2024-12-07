@@ -42,25 +42,45 @@ s3://otaviodesafio/Raw/TMDB/JSON/ e s3://otaviodesafio/Raw/LocalCSV/Movies/.
 Permissões: Garanti que tinha permissões necessárias para ler e escrever nos buckets S3, além de permissão para criar e executar jobs no AWS Glue.
 
 ### Passo 2: Criação dos Jobs no AWS Glue
-Job 1 - Processamento de CSV:
+Os jobs no AWS Glue foram criados para processar e transformar os dados da camada Raw Zone em dados limpos e confiáveis na Trusted Zone. Foram desenvolvidos dois jobs:
 
-Este job é responsável por ler os dados CSV;
+Job para Arquivos CSV:
+
+Este job foi projetado para processar os arquivos CSV contendo informações como título, duração, número de votos e data de lançamento.
+O código foi implementado em Python com Apache Spark, realizando:
+Leitura dos arquivos na Raw Zone.
+Padronização e limpeza dos dados.
+Conversão para o formato Parquet.
+Os dados processados foram armazenados na Trusted Zone no S3.
+Job para Dados da API TMDB (JSON):
 
 [Job_CSV](glue_csv_to_parquet.py)
 
-Job 2 - Processamento de Dados TMDB (JSON):
+Este job processou os dados coletados da API TMDB armazenados em formato JSON.
+Incluiu etapas como:
+Leitura e extração de campos relevantes.
+Normalização e padronização dos dados.
+Conversão para Parquet e particionamento por data de criação.
+Os dados finais também foram enviados para a Trusted Zone no S3.
 
 [Job_JSON](glue_json_to_parquet.py)
 
 
-O segundo job será responsável pelo processamento dos dados provenientes da API TMDB.
-Os dados devem ser particionados por data de criação (ano, mês, dia) para que possam ser consultados de forma eficiente posteriormente.
 
 ### Passo 3: Execução dos Jobs no AWS Glue
 Executando os dois jobs no AWS Glue para processar os dados e garantir que eles sejam carregados na Trusted Zone corretamente.
 Importante: Após a execução dos jobs, precisamos interrompê-los para evitar custos desnecessários.
 
-### Passo 4: Validação e Consultas no AWS Athena
+### Passo 4: Criação do Crawler no Glue
+O Glue Crawler foi configurado para catalogar os dados processados e disponibilizá-los para consulta no AWS Athena:
+
+Configuração do Crawler:
+Criado para apontar para o bucket da Trusted Zone no S3.
+Configurado para identificar automaticamente os schemas dos arquivos Parquet.
+Atualização do Data Catalog:
+Após a execução, o crawler atualizou o Glue Data Catalog, criando tabelas com os dados processados.
+
+### Passo 5: Validação e Consultas no AWS Athena
 Após o processamento dos dados, utilize o AWS Athena para realizar algumas consultas SQL e garantir que os dados estejam bem estruturados e prontos para análise: 
 ![Consulta_Athena](athena_select_csv_parquet.png)
 ![Consulta_Athena](./query_athena_json_atualizada.png)
