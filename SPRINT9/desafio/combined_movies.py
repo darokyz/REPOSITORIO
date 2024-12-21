@@ -8,7 +8,7 @@ from awsglue.dynamicframe import DynamicFrame
 from pyspark.sql.functions import col, lit
 
 # Filmes a serem mantidos
-# Fiz uma seleção manual dos filmes que gostaria de usar e selecionei eles aqui para buscar apenas esses filmes
+# Fiz uma seleção manual dos filmes que gostaria de usar e selecionei eles aqui para buscar apenas esses eles
 filmes_a_manter = [
     "Code Geass: Lelouch of the Rebellion – Glorification",
     "One Piece: Giant Mecha Soldier of Karakuri Castle",
