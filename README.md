@@ -5,7 +5,7 @@
 </div>
 
 <p align="center">
-  <b>Taubaté, SP, Brasil</b> • <b>Análise e Desenvolvimento de Sistemas</b> • <b>2º Semestre</b>
+  <b>Taubaté, SP, Brasil</b> • <b>Análise e Desenvolvimento de Sistemas</b> • <b>3º Semestre</b>
 </p>
 
 ---
